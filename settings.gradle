@@ -1,0 +1,6 @@
+rootProject.name = 'mono'
+include ':test-service'
+project(':test-service').projectDir = file('./services/test-service')
+include ':test-domain'
+project(':test-domain').projectDir = file('./domains/test-domain')
+
